@@ -65,7 +65,7 @@ export default function ContactPage() {
         <div className="  my-16 mx-0 md:w-[60%] bg-[#B5B6B6] rounded-xl border border-[#B5B6B6]">
           <div className="  mx-1 my-16 mt-8 md:p-10">
             <h3 className=" text-[#181818] text-xl font-semibold mb-6">
-              We’d love to hear from you! <br /> Let’s get in touch
+              We'd love to hear from you! <br /> Let's get in touch
             </h3>
             <form className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
