@@ -47,7 +47,7 @@ export default function ContactPage() {
           <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
           <p className="mb-6  mr-21 text-sm leading-relaxed text-[#B5B6B6]">
             Not sure what you need? The team at Excellence Code Solution will be happy to
-            listen to you and suggest event ideas you hadn’t considered.
+            listen to you and suggest event ideas you hadn't considered.
           </p>
           <div className="space-y-4 text-sm">
             <p className="flex items-center gap-2 text-[#FFFFFD]">
