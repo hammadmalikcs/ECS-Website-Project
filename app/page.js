@@ -30,11 +30,11 @@ export default function ContactPage() {
           <div className="w-6 h-6 bg-[#FFFFFD]" />
           <span>Excellence Code Solution</span>
         </div>
-        <nav className="space-x-6 text-[#FFFFFD]">
-          <a href="#" className="hover:text-[#B5B6B6]">Home</a>
-          <a href="#" className="hover:text-[#B5B6B6]">About</a>
-          <a href="#" className="hover:text-[#B5B6B6]">Services</a>
-          <a href="#" className="hover:text-[#B5B6B6]">Event Gallery</a>
+        <nav className="space-x-6 text-[#B5B6B6]">
+          <a href="#" className="hover:text-[#FFFFFD]">Home</a>
+          <a href="#" className="hover:text-[#FFFFFD]">About</a>
+          <a href="#" className="hover:text-[#FFFFFD]">Services</a>
+          <a href="#" className="hover:text-[#FFFFFD]">Event Gallery</a>
         </nav>
         <button className="border border-[#FFFFFD] text-[#FFFFFD] px-4 py-1 rounded hover:bg-[#B5B6B6] hover:text-[#181818]">
           Request A Proposal
