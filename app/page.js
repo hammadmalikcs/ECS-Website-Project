@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { IoMailUnreadOutline } from "react-icons/io5";
 import { LuPhoneCall } from "react-icons/lu";
+
 const countryOptions = [
   { code: 'US', name: 'United States', placeholder: '+1 (555) 123-4567' },
   { code: 'GB', name: 'United Kingdom', placeholder: '+44 7123 456789' },
@@ -31,7 +32,7 @@ export default function ContactPage() {
       <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4">Contact Us</h2>
       <p className="mb-4 md:mb-6 text-xs sm:text-sm md:text-base leading-relaxed text-[#B5B6B6] px-0 md:px-0">
         Not sure what you need? The team at Excellence Code Solution will be
-        happy to listen to you and suggest ideas you hadn't considered.
+        happy to listen to you and suggest ideas you hadn&apos;t considered.
       </p>
       <div className="space-y-2 md:space-y-3 text-xs sm:text-sm md:text-base">
         <p className="flex items-center justify-center md:justify-start gap-1 md:gap-2 text-[#FFFFFD] break-all">
@@ -47,10 +48,10 @@ export default function ContactPage() {
     <div className="w-full md:w-[60%] bg-[#B5B6B6] rounded-xl border border-[#B5B6B6] my-4 md:my-0">
       <div className="p-4 sm:p-6 md:p-10">
         <h3 className="text-[#181818] text-base sm:text-lg md:text-xl font-semibold mb-4 md:mb-6 text-center md:text-left">
-          We'd love to hear from you! <br className="hidden sm:block" /> Let's
+          We&apos;d love to hear from you! <br className="hidden sm:block" /> Let&apos;s
           get in touch
         </h3>
-        <form className="space-y-3 md:space-y-4">
+        <form className=" space-y-3 md:space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
             <input
               type="text"
@@ -113,6 +114,5 @@ export default function ContactPage() {
     </div>
   </main>
 </div>
-
   );
 }
